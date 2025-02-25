@@ -1,0 +1,37 @@
+body {
+    color: #333;
+    margin: 30px;
+}
+
+.grid{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+}
+.grid-col-4-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-col-2-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-col-6-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+h1 {
+    margin: 20px;
+}
+
+.box {
+    margin: 5px;
+    padding: 10px;
+    background-color: #acc;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    text-align: center
+}
