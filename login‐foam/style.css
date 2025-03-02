@@ -2,9 +2,10 @@ body {
     background-color: #333;
     color: #ddd;
 }
-.contener                                                                                                                                           {
+.container                                                                                                                                           {
     width: 800px;
-    margin: 50px;
+    margin: auto;
+    margin-top: 8%;
     padding: 5px 5%;
     font-size: 24px;
     background-color: #202938;
@@ -35,3 +36,4 @@ body {
 .link{
     color: #26e;
 }
+
